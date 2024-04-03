@@ -18,3 +18,4 @@ The project showcases dynamic content creation using JavaScript's `appendChild` 
 
 ## Screenshots
 ![Screenshot (766)](https://github.com/karti3k/MovieFinder/assets/97697722/7c66c654-4059-428a-8489-f92ef6f87f43)
+![Screenshot (767)](https://github.com/karti3k/MovieFinder/assets/97697722/91f61081-4663-47bd-ba4b-66d3b8da0431)
