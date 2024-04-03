@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    /*
+    The box-sizing: border-box; property changes the box model used by the browser so that the width and height you specify include padding and borders, rather than being added to them.
+
+    https://www.w3schools.com/css/css3_box-sizing.asp
+    */
+    
+}
+
+body{
+    background-color: #131720;
+    font-family: sans-serif;
+}
+h3{
+    color: white;
+}
+
+.topnav{
+    overflow:hidden;
+     /*Overflowing Content: If an element's content is larger than its specified dimensions, the overflow will extend beyond the container's boundaries. Applying overflow: hidden; to the container will hide the overflow and prevent it from affecting the layout of other elements.*/
+    background-color: black;
+    padding: 10px;
+}
+.topnav a{
+    float: left;
+    display: block;/*doubt*/
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.topnav .search-container{
+    float: right;
+}
+input{
+    all: unset;
+    /*The all: unset; property in CSS is used to reset all CSS properties on an element to their initial values, effectively removing any styles applied by the browser's default stylesheet or other CSS rules. This property is particularly useful when you want to start styling an element from scratch*/
+    font: 15px system-ui;
+    /*Using system-ui as a font family ensures consistency with the user's operating system or device, as it will automatically use the default system font specified by the user's browser or operating system.*/
+    color: white;
+    height: 100%;/*doubt*/
+    width: 100%;/*doubt*/
+    padding: 6px 9px;
+    /* border: 1px solid white; */
+}
+form{
+    background-color: #131720;
+    width: 300px;
+    height:43px;
+    border-radius: 11px;
+    display: flex;/*flex vs flexbox*/
+    align-items: center;/*imp property*/
+}
+.thumbnail{
+    width: 96%;/*use of percentage was better (here) than em and ofcourse px*/
+    height: 350px;
+    border-radius: 19px;
+}
+.column{
+    float: left;
+    padding: 20px 10px;
+    width:25%;/*doubt*/
+}
+.card{
+    border-radius: 19px;
+    padding: 15px;
+    background-color: black;
+    text-align: center;
+}
