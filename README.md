@@ -17,3 +17,4 @@ Promises are leveraged in this project for managing asynchronous tasks, includin
 The project showcases dynamic content creation using JavaScript's `appendChild` method. As users search for movies, the application dynamically generates HTML elements to display search results in real-time. This illustrates how the DOM can be manipulated to create responsive and interactive web interfaces.
 
 ## Screenshots
+![Screenshot (766)](https://github.com/karti3k/MovieFinder/assets/97697722/7c66c654-4059-428a-8489-f92ef6f87f43)
